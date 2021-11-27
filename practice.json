@@ -1,0 +1,12 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector("#btn")
+  const magic = document.querySelectorAll(".magic")
+  btn.addEventListener("click", () => {
+    // magic.forEach(i => i.innerText = "hi"
+    for (i = 0; i < 3; i++) {
+      magic[i].innerText = "yoyo"
+    }
+
+    // )
+  })
+})
